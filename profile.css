@@ -1,0 +1,105 @@
+.img-thumbnail {
+    height: 150px;
+}
+
+.section {
+    margin-top: 3rem ;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.shadow {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.733) !important;
+}
+
+.progress {
+    padding: 1px;
+    margin: 6PX;
+    font-weight: 500;
+}
+
+h2 {
+    padding: 20px;
+
+}
+
+h5 {
+    color: #20c997;
+    font-size: small;
+}
+
+.details {
+    border: 7px solid rgb(43, 201, 43);
+    width: 12px;
+    border-radius: 6px;
+
+}
+
+.coma {
+    color: blueviolet;
+
+}
+
+.form-groupl {
+    width: 100%;
+}
+
+.progress-bar {
+    background-color: rgb(24, 189, 240);
+
+}
+
+.corse {
+    background-color: rgb(213, 27, 230);
+}
+
+.timeline-card {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    border: 5px solid;
+    border-color: rgb(59, 183, 233);
+    position: absolute;
+    margin-top: 17px;
+    margin-left: -12px;
+}
+
+.timeline-card2 {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    border: 5px solid;
+    border-color: rgb(28, 219, 161);
+    position: absolute;
+    margin-top: 17px;
+    margin-left: -12px;
+}
+
+.timeline-body {
+    border-left: 2px solid #e6e9ed;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.first {
+    margin-top: 40px;
+
+}
+
+.second {
+    margin-top: 40px;
+    text-align: end;
+}
+#navigation{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+:root {
+    --yoegsh-blue-river: #2D79B3;
+    --yoegsh-cardinal-red: ;
+    --font-name: Quicksand;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-name);
+}
+
+.navigation-bar {
+    background-color: var(--yoegsh-blue-river);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0 10%;
+}
+
+.brand {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--yoegsh-cardinal-red);
+}
+
+.navigation-bar ul li {
+    display: inline-block;
+
+
+    /* background-color: green; */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #FCEA48;
+    text-transform: capitalize;
+    padding: 0 10px;
+}
+
+.nav-link:hover {
+    transition: 1s;
+    text-decoration: underline;
+    background-color: var(--yoegsh-cardinal-red);
+}
+
+.cta-btn {
+    padding: 5px 55px;
+    border: 3px solid var(--yoegsh-cardinal-red);
+    border-radius: 5px;
+    font-size: 18px;
+    color: #FCEA48;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: 1s
+}
+
+.cta-btn:hover {
+    color: var(--yoegsh-cardinal-red);
+    background-color: #FCEA48;
+    transition: 1s
+}
+
+.hero-section {
+    background-image: url('../img/bg-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0px 5%;
+    /* height: 100vh; */
+}
+
+
+
+/* @media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  } */
+
+/* 
+@media screen and (min-width:600px) {
+    body {
+        background-color: red;
+    }
+
+    .navigation-bar {
+        background-color: gray;
+        display: none;
+    }
+} */
+
+
+
+@media (min-width: 576px) {
+    body {
+        /* background-color: red; */
+    }
+
+    .navigation-bar {
+        /* background-color: gray; */
+        /* display: none; */
+    }
+}
+
+/* @media (min-width: 768px) { ... } */
+
+/* 
+Blue River – #2D79B3
+Cardinal Red – #D31E3D
+Daisy Yellow – #FCEA48 
+*/
